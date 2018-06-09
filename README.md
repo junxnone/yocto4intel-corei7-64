@@ -16,7 +16,7 @@ source poky/oe-init-build-env intel-corei7-64/
 bitbake core-image-sato
 ```
 
-# Flash the *hddimg to the usb flash drive
+# Flash the xxx.hddimg to the usb flash drive /dev/sdx
 ```
 dd if=./xxx.hddimg of=/dev/sdx bs=4M status=progress
 ```
