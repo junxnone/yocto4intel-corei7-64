@@ -1,6 +1,6 @@
 
 ### yocto build Linux OS for intel-corei7-64
-
+> If you want to know more about yocto, please refer the [wiki](https://github.com/junxnone/yocto4intel-corei7-64/wiki)
 
 # Clone this project
 ```
@@ -20,3 +20,4 @@ bitbake core-image-sato
 ```
 dd if=./xxx.hddimg of=/dev/sdx bs=4M status=progress
 ```
+
